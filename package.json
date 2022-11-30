@@ -10,7 +10,7 @@
     "dev": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "solve": "node dist/solve.js"
+    "solve": "tsc && node dist/solve.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/moke20/adventfocode#readme",
   "devDependencies": {
+    "@types/node": "^18.11.10",
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "D": "^1.0.0"
   }
 }
