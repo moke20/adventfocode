@@ -1,0 +1,27 @@
+{
+  "name": "adventfocode",
+  "version": "1.0.0",
+  "description": "Solving the problems of advent",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0,0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moke20/adventfocode.git"
+  },
+  "author": "Joacim Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moke20/adventfocode/issues"
+  },
+  "homepage": "https://github.com/moke20/adventfocode#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
